@@ -7,8 +7,11 @@
             }
 
             #hello {
-                font-size: 40px;
-                font: message-box;
+                font-size: 18px;
+                font-style:normal;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 200;
+                font-style: normal;
                 background-image: url(https://i0.wp.com/goproposal.com/wp-content/uploads/2019/01/GoProposal-Page-Header-Background.png?fit=1600%2C720&ssl=1);
                 background-size: cover;
                 background-position: center;
@@ -19,37 +22,44 @@
             }
 
             #contact {
-                block-size: 300px x 100px;
+                block-size: 500px x 100px;
+                image-rendering: auto;
                 font-size: 25px;
                 font: message-box;
                 text-align: left;
-                text-indent: 5px;
+                float:center;
+                display: block;
+                text-indent: 10px;
                 background-color:rgb(11, 11, 11);
                 background-size: cover;
                 background-position: center;
                 border: 1px solid blueviolet;
                 border-width: 3px;
-                margin: 5px;                
+                border-style: double;
+                margin: 5px;
+                border-radius: 10px;                
             }
 
-            a.button {
+            .button {
+            border: 1px solid greenyellow;
+            text-indent: 5px;
+            padding: 15px 32px;
             -webkit-appearance: button;
             -moz-appearance: button;
             appearance: button;
             text-decoration:none;
+            background-color: black;
             color: greenyellow;
             }
 
             #aboutme {
-                display: list-item;
                 font: message-box;
-                font-size: 23px;
+                font-size: 13px;
                 background-color: rgb(11, 11, 11);
                 background-size: cover;
                 background-image: url(https://i0.wp.com/goproposal.com/wp-content/uploads/2019/01/GoProposal-Page-Header-Background.png?fit=1600%2C720&ssl=1);
-                text-indent: 5px;
+                text-indent: 10px;
                 text-align: left;
-                grid-template-columns: auto;
                 border: 1px solid blueviolet;
                 border-width: 3px;
                 margin: 5px;
@@ -61,27 +71,27 @@
                 color: greenyellow;
                 background-color: rgb(11, 11, 11);
                 background-size: cover;
-                text-indent: 5px;
+                text-indent: 10px;
                 text-align: left;
                 grid-template-columns: auto;
                 border: 1px solid blueviolet;
                 border-width: 3px;
+                border-style: dotted;
                 margin:5px;
             }            
 
             #skills {
-                display: list-item;
+                display:block;
                 font: message-box;
-                font-size: 23px;
+                font-size: 17px;
                 color:rgb(211, 153, 4);
                 background-image:url(https://i0.wp.com/goproposal.com/wp-content/uploads/2019/01/GoProposal-Page-Header-Background.png?fit=1600%2C720&ssl=1);
                 background-size: cover;
-                text-indent: 5px;
+                text-indent: 10px;
                 text-align: left;
-                grid-template-columns: auto;
                 border:1px solid blueviolet;
                 border-width: 3px;
-                margin:5px;
+                margin:10px;
             }
         </style>
     </head>
@@ -92,42 +102,44 @@
         </section>
 
         <section id="contact">
-            <p>CONTACT</p>
+            <p><b>CONTACT</b></p>
             <p><a href="https://www.instagram.com/does.not.matter.who" class="button">
-            <img src="https://www.resizepixel.com/Image/i0ri9x6eth/Preview/unnamed.jpg?v=e7bf10ec-ee29-4527-8587-39b03580a3ce" alt="">
+            <img src="https://www.resizepixel.com/Image/aak4acpp00/Preview/fffaa15913d4c9d347979dda924075c9.jpg?v=d4ea5366-a5a7-41be-937a-9737958d95bd" alt="imagen - Instagram icon">
             Instagram
             </a></p>
             <p><a href="https://www.github.com/meltingmushroom" class="button">
-            <img src="https://www.resizepixel.com/Image/ezb1npe655/Preview/5968896.png?v=20078e79-6765-494f-afbe-03be4649798f" alt="">
+            <img src="https://www.resizepixel.com/Image/wto88hivcd/Preview/5968896.jpg?v=5e1c5d1e-608f-4b6e-9a3a-cd4158327b28" alt="imagen - GitHub icon">
             GitHub
             </a></p>
             <p><a href="mara.schneider@live.com" class="button">
-                <img src="https://www.resizepixel.com/Image/0copjt7bu3/Preview/2e649d2e4e613f8dc275736068e0c9eb.jpg?v=8df571cb-26aa-4906-acac-da4cd0fafc26" alt="">
+                <img src="https://www.resizepixel.com/Image/lb67nop5w5/Preview/images.jpg?v=3e530ea9-c7f1-49de-ad3b-2526d6516b34" alt="imagen - e-mail icon">
             mara.schneider@live.com
             </a></p>
         </section>
-    
+
         <section id="aboutme">
-            <p>ABOUT ME</p>
+            <p><b>ABOUT ME</b></p>
             <p>Artist</p>
             <p>Web Developer Jr.</p>
             <p>Programmer Jr.</p>
             <p>Photographer</p>
             <p>Languages Student</p>
             <img src="">
-        </section>
-        
+        </section>  
+
         <section id="experience">
-            <p>EXPERIENCE</p>
+            <p><b>EXPERIENCE</b></p>
             <p><a href="https://decadadeaccion.herokuapp.com/" class="button">
-                <img src="https://www.resizepixel.com/Image/v3upy7w8ue/Preview/Sin%20t%c3%adtulo.png?v=f0126c77-6793-4095-af86-83affa0c2264" alt="">
-            <p>Web Project (Blog) - Phase 2 - Informatorio</p></a>
-            <p><a href="https://www.youtube.com/watch?v=35zBgNUlljY" class="button"></p>
-                <p>YouTube</p></a>
+                <img src="https://www.resizepixel.com/Image/qt8yfgeep8/Preview/Sin%20t%c3%adtulo%20(1).jpg?v=e6c1bac8-18cb-41e4-8d19-486ce17da508" alt="Imagen de la app">
+            <p>Web Project (Blog) - Phase 2 - Informatorio</a></p>
+            <p><a href="https://www.youtube.com/watch?v=35zBgNUlljY" class="button">
+            <b>YouTube Project Video</a></b></p>
         </section>
 
+        
+        
         <section id="skills">
-            <p>SKILLS & LANGUAGES</p>
+            <p><b>SKILLS & LANGUAGES</b></p>
             <p>Python</p>
             <p>Java</p>
             <p>React</p>
@@ -135,8 +147,7 @@
             <p>Django</p>
             <p>Bootstrap</p>
             <p>JavaScript</p>
-            <p>CSS</p>
-            <p>HTML</p>
+            <p>HTML & CSS</p>
             <p>Photoshop</p>
             <p>Portuguese level: Begginer</p>
             <p>English level: Intermediate-Advanced</p>
